@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Ubuntu';
+	background: linear-gradient(45deg, #45145A, #FF5300);
+}
+h1 {
+	color: white;
+	text-align: center;
+}
+h3 {
+	color:#00FA9A;
+}
+img:hover {
+	filter: invert(100%);
+	border: solid;
+	transition: 0.5s;
+}
+div {
+	width: 70%;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px 50px;
+	background-color: #fff;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+	text-align: justify;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
